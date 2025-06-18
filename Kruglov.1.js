@@ -3,18 +3,18 @@ let answer1 = promt ("Что можно увидеть с закрытыми г�
 if (answer1.toLowerCase() === "сон") { // proverka otveta
 
   alert ("verno:)");
-  CA++; // uvelishivaet chetchik
+  CA++; // увеличивает счетчик
 } else {
   alert ("neverno:(");
 }
 
-// vtoraya zagadka
-let answer2 = promt(chto stanovitsa bolshe, esli ego postavit vverh nogami?)
-if (answer2.toLowerCase() === "chislo 6"; {
-  alert("verno:)");
+// вторая zагадка
+let answer2 = promt(что становится больше, если его поставить вверх ногами?)
+if (answer2.toLowerCase() === "число 6"; {
+  alert("верно:)");
 CA++;
 } else {
-  alert("neverno:(");
+  alert("неверно:(");
 }
-// vivod rezultata
-alert('kolishestvo pravilnih otvetov: ${CA}');
+// 
+alert('количество правильных ответов: ${CA}');
